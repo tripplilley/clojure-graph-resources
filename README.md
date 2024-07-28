@@ -52,7 +52,7 @@ RDF triplestores are a specialised type of graph database for representing knowl
 ### Datalog
 Clojure's Datomic-like databases also model data as triplets... or in some cases technically as quintuplets AKA datoms. See [clojurelog.github.io](https://clojurelog.github.io/) for a comparison of some of the Datalog database options listed below.
 
-* [Datomic.com](https://www.datomic.com/): _(PROPRIETARY)_ A transactional database with a flexible data model, elastic scaling, and rich queries.
+* [Datomic.com](https://www.datomic.com/): A transactional database with a flexible data model, elastic scaling, and rich queries.
   - [vvvvalvalval/datofu](https://github.com/vvvvalvalval/datofu): This library provides common utilities for working with Datomic, mostly in the form of database functions.
   - [vvvvalvalval/datomock](https://github.com/vvvvalvalval/datomock): Mocking and forking Datomic Peer connections in-memory.
   - [vvvvalvalval/datalog-rules](https://github.com/vvvvalvalval/datalog-rules): Utilities for managing Datalog rulesets from Clojure.
